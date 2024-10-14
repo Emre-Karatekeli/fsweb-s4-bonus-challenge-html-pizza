@@ -21,6 +21,10 @@
   border: 1px solid purple;
 }
 
+.hero-section,
+main {
+  background-color: #fffff1;
+}
 
 
 .hero-section {
@@ -209,6 +213,8 @@ main {
   position: relative;
   width: 50rem;
   height: 30rem;
+  border-radius: 2rem;
+  overflow: hidden;
 }
 
 .menu3 .background-image{
@@ -227,6 +233,13 @@ main {
   right: 2rem;
 }
 
+.menu3 h3 {
+  color: black;
+  font-size: 55px;
+  margin-left: 70px;
+  font-family: "Barlow", sans-serif;
+}
+
 .menu3 button {
   margin-left: 70px;
   width: 275px;
@@ -238,6 +251,68 @@ main {
   font-weight: 500;
 }
 
+/* Text section */
+
+.text {
+  background-color: #fffff1;
+  width: 50rem;
+  height: 30rem;
+}
+
+.text h4 {
+  color: #CE2829;
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: -2px;
+}
+
+.text h3 {
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: -16px;
+}
+
+
+/* items section */
+
+.items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  width: 40rem;
+}
+
+.items button {
+  flex-basis: 44%;
+  display: flex;
+  padding: 25px 15px;
+  border-radius: 3rem;
+  background-color: white;
+  font-size: 23px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.items img {
+  width: 60px;
+}
+
+.items button:nth-child(odd) {
+  align-self: flex-start;
+}
+
+.items button:nth-child(even){
+  align-self: flex-end;
+
+}
 
 
 
